@@ -23,24 +23,38 @@
   <main class="main"></main>
   <main class="main nofuzz">
     <div class="locomotive-scroll">
-      <section data-scroll-section="1" class="section-3 is--hero">
+      <section data-scroll-section="1" class="section-3 is--hero project">
         <div class="container page">
           <div class="container-7 horizontal">
             <div class="project-details">
               {%- assign categoryOfProject = f_category | resolveReference -%}<a href="{{ categoryOfProject.url }}" class="button _2 in inv w-button">{{ texts.22857b6a }}</a>
             </div>
             <div class="project-summary">
-              <h2>{{ title }}</h2>
+              <h2 class="heading-50">{{ title }}</h2>
               <p class="paragraph">{{ f_project-summary }}</p>
-              {%- assign categoryOfProject = f_category | resolveReference -%}<div class="project-type inv">{{ categoryOfProject.data.title }}</div>
-              <div class="project-type inv">{{ texts.-33f77e9b }}</div>
+              <div>
+                <div class="text-block-4">{{ texts.4b79e64 }}</div>
+                <div class="text-block-3">{{ f_role }}</div>
+              </div>
+              <div>
+                <div class="text-block-4">{{ texts.5158f7d }}</div>
+                <div class="text-block-3">{{ f_date-of-project | formatDate: "yyyy" }}</div>
+              </div>
+              <div>
+                <div class="text-block-4">{{ texts.-697be251 }}</div>
+                <div class="text-block-3">{{ f_client }}</div>
+              </div>
+              <div>
+                <div class="text-block-4">{{ texts.-2b38fd24 }}</div>
+                {%- assign categoryOfProject = f_category | resolveReference -%}<a href="{{ categoryOfProject.url }}">{{ categoryOfProject.data.title }}</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section data-scroll-section="1" class="section-3">
         <div class="container is--sticky bg">
-          <div class="container-7">{%- image f_main-project-image.url, f_main-project-image.alt, '[{"max":479,"size":"82vw"},{"max":767,"size":"85vw"},{"max":991,"size":"86vw"},{"max":10000,"size":"89vw"}]', 'class="full-project-image"' -%}
+          <div class="container-7">{%- image f_main-project-image.url, f_main-project-image.alt, '[{"max":10000,"size":"100vw"}]', 'class="full-project-image"' -%}
             <div class="rich-text-block w-richtext">{{ content }}</div>
           </div>
         </div>

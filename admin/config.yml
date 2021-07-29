@@ -183,6 +183,18 @@ collections:
         widget: datetime
         required: true
       - hint: ''
+        name: f_role
+        label: Role
+        widget: select
+        required: false
+        options:
+          - label: Producer
+            value: Producer
+          - label: Executive Producer
+            value: Executive Producer
+          - label: Production Manager
+            value: Production Manager
+      - hint: ''
         name: f_project-summary
         label: Project Summary
         widget: text
@@ -457,147 +469,147 @@ collections:
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #000'
+          - hint: 'Original color: #facfba'
             name: color_4
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #f3f3f5'
+          - hint: 'Original color: #636363'
             name: color_5
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #facfba'
+          - hint: 'Original color: #3898ec'
             name: color_6
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #636363'
+          - hint: 'Original color: #aaa'
             name: color_7
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #3898ec'
+          - hint: 'Original color: rgba(0, 0, 0, 0.2)'
             name: color_8
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #aaa'
+          - hint: 'Original color: rgba(0, 0, 0, 0.1)'
             name: color_9
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(0, 0, 0, 0.2)'
+          - hint: 'Original color: #222'
             name: color_10
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(0, 0, 0, 0.1)'
+          - hint: 'Original color: #ccc'
             name: color_11
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #222'
+          - hint: 'Original color: #ebebeb'
             name: color_12
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #ccc'
+          - hint: 'Original color: #fefcf6'
             name: color_13
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #ebebeb'
+          - hint: 'Original color: #6f6e6c'
             name: color_14
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #fefcf6'
+          - hint: 'Original color: #fd9985'
             name: color_15
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #6f6e6c'
+          - hint: 'Original color: #ffb08b'
             name: color_16
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #fd9985'
+          - hint: 'Original color: #f3f3f5'
             name: color_17
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #ffb08b'
+          - hint: 'Original color: rgba(32, 206, 123, 0.1)'
             name: color_18
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(32, 206, 123, 0.1)'
+          - hint: 'Original color: #20ce7b'
             name: color_19
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #20ce7b'
+          - hint: 'Original color: rgba(236, 56, 114, 0.1)'
             name: color_20
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(236, 56, 114, 0.1)'
+          - hint: 'Original color: #ec3872'
             name: color_21
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #ec3872'
+          - hint: 'Original color: hsla(0, 0%, 100%, 0.5)'
             name: color_22
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: hsla(0, 0%, 100%, 0.5)'
+          - hint: 'Original color: rgba(0, 0, 0, 0.5)'
             name: color_23
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(0, 0, 0, 0.5)'
+          - hint: 'Original color: #000'
             name: color_24
             label: Color
             widget: color
@@ -611,36 +623,29 @@ collections:
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #435469'
+          - hint: 'Original color: #b3b3b3'
             name: color_26
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #b3b3b3'
+          - hint: 'Original color: rgba(134, 88, 88, 0.39)'
             name: color_27
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(134, 88, 88, 0.39)'
+          - hint: 'Original color: rgba(2, 1, 1, 0.08)'
             name: color_28
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(2, 1, 1, 0.08)'
-            name: color_29
-            label: Color
-            widget: color
-            required: true
-            enableAlpha: true
-            allowInput: true
           - hint: 'Original color: #ff825c'
-            name: color_30
+            name: color_29
             label: Color
             widget: color
             required: true
@@ -771,13 +776,53 @@ collections:
             label: Text
             name: 5c24b9c
             widget: string
-          - hint: 'Original text: link, key: 32affa'
-            label: Text
-            name: 32affa
-            widget: string
           - hint: 'Original text: back to the top, key: -4df286a6'
             label: Text
             name: '-4df286a6'
+            widget: string
+          - hint: 'Original text: project categories, key: -51e6667d'
+            label: Text
+            name: '-51e6667d'
+            widget: string
+          - hint: 'Original text: animation, key: 42ab1b84'
+            label: Text
+            name: 42ab1b84
+            widget: string
+          - hint: 'Original text: COMMERCIAL & MUSIC VIDEOS, key: 40fba323'
+            label: Text
+            name: 40fba323
+            widget: string
+          - hint: 'Original text: documentary, key: 1e334f6d'
+            label: Text
+            name: 1e334f6d
+            widget: string
+          - hint: 'Original text: narrative, key: 6855c872'
+            label: Text
+            name: 6855c872
+            widget: string
+          - hint: 'Original text: photography, key: 63a3b99d'
+            label: Text
+            name: 63a3b99d
+            widget: string
+          - hint: 'Original text: Back to category, key: 22857b6a'
+            label: Text
+            name: 22857b6a
+            widget: string
+          - hint: 'Original text: Role:, key: 4b79e64'
+            label: Text
+            name: 4b79e64
+            widget: string
+          - hint: 'Original text: Year:, key: 5158f7d'
+            label: Text
+            name: 5158f7d
+            widget: string
+          - hint: 'Original text: Client:, key: -697be251'
+            label: Text
+            name: '-697be251'
+            widget: string
+          - hint: 'Original text: Category:, key: -2b38fd24'
+            label: Text
+            name: '-2b38fd24'
             widget: string
           - hint: 'Original text: Zeitraum, key: 1dc3f3bd'
             label: Text
@@ -1049,38 +1094,6 @@ collections:
             label: Text
             name: 6f9475d5
             widget: text
-          - hint: 'Original text: project categories, key: -51e6667d'
-            label: Text
-            name: '-51e6667d'
-            widget: string
-          - hint: 'Original text: animation, key: 42ab1b84'
-            label: Text
-            name: 42ab1b84
-            widget: string
-          - hint: 'Original text: COMMERCIAL & MUSIC VIDEOS, key: 40fba323'
-            label: Text
-            name: 40fba323
-            widget: string
-          - hint: 'Original text: documentary, key: 1e334f6d'
-            label: Text
-            name: 1e334f6d
-            widget: string
-          - hint: 'Original text: narrative, key: 6855c872'
-            label: Text
-            name: 6855c872
-            widget: string
-          - hint: 'Original text: photography, key: 63a3b99d'
-            label: Text
-            name: 63a3b99d
-            widget: string
-          - hint: 'Original text: Back to category, key: 22857b6a'
-            label: Text
-            name: 22857b6a
-            widget: string
-          - hint: 'Original text: jan 2020, key: -33f77e9b'
-            label: Text
-            name: '-33f77e9b'
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -1097,9 +1110,9 @@ collections:
             label: Link
             name: 55b8e8be
             widget: string
-          - hint: 'Original link: /projects, key: -2f68657'
+          - hint: 'Original link: #top, key: 11aa52'
             label: Link
-            name: '-2f68657'
+            name: 11aa52
             widget: string
           - hint: 'Original link: /contact, key: 4b0e6111'
             label: Link
@@ -1122,33 +1135,20 @@ collections:
             widget: hidden
             default: Images
           - label: Image
-            name: '9495431'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 55c8a69e
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: i454c96c2
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '9495431'
             widget: object
             fields:
               - name: url
@@ -1265,7 +1265,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 56145f50
+            name: 55c8a69e
             widget: object
             fields:
               - name: url
