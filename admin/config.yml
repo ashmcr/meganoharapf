@@ -637,14 +637,14 @@ collections:
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: rgba(2, 1, 1, 0.08)'
+          - hint: 'Original color: #ff825c'
             name: color_28
             label: Color
             widget: color
             required: true
             enableAlpha: true
             allowInput: true
-          - hint: 'Original color: #ff825c'
+          - hint: 'Original color: rgba(2, 1, 1, 0.08)'
             name: color_29
             label: Color
             widget: color

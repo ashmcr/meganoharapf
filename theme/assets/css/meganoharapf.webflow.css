@@ -1283,7 +1283,7 @@ em {
   display: inline;
   border-color: var(--color-2);
   border-radius: 25px;
-  background-color: var(--color-15);
+  background-color: var(--color-28);
   box-shadow: none;
   -webkit-transition-property: none;
   transition-property: none;
@@ -1644,7 +1644,7 @@ em {
 .section-3.is--hero {
   z-index: 4;
   border-bottom: 1px solid var(--color-24);
-  background-color: var(--color-4);
+  background-color: var(--color-28);
   background-image: var(--image-9495431);
   background-position: 0px 0px;
   background-size: auto;
@@ -2975,7 +2975,7 @@ em {
   }
 
   a {
-    color: var(--color-29);
+    color: var(--color-28);
   }
 
   .body {
